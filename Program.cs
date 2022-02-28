@@ -9,10 +9,12 @@ namespace Regex_Problem_Statements
     {
         static void Main(string[] args)
         {
-            Patterns patterns = new Patterns();
+            //Calling object of the PinCode Pattern Class.
+            PinCodePatterns pinCodePatterns = new PinCodePatterns();
             Console.Write("Enter the pin code : ");
             string pinCode = Console.ReadLine();
-            patterns.ValidatePinCode(pinCode);  
+
+            pinCodePatterns.ValidatePinCode(pinCode);  
         }
     }
 }
