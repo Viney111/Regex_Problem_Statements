@@ -6,10 +6,10 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace Regex_Problem_Statements
-{
+{   
     internal class Email_Patterns
     {
-        public static string emailAddressUC1 = @"^[a-zA-Z]{3,}@bridgelabz.co$";//UC2
+        public static string emailAddressUC1 = @"^[a-zA-Z0-9]{3,}(([.|-|+|_]?)([a-zA-Z0-9]{1,}))?@bridgelabz.co$";//UC4
 
         public void ValidateEmailAddress(string email)
         {
