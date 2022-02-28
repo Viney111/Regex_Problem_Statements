@@ -10,9 +10,8 @@ namespace Regex_Problem_Statements
         static void Main(string[] args)
         {
             Email_Patterns email_Patterns = new Email_Patterns();
-            Console.Write("Enter eMail Address : ");
-            string email = Console.ReadLine();  
-            email_Patterns.ValidateEmailAddress(email);
+            string[] checkingEmails = { "abc.xyz@bridgelabz.co", "abc@bridgelabz.co", "abcds.gdfr@bridgelabz.co.in", "abcds.gdfr@bridgelabz.co.ini" }; 
+            email_Patterns.ValidateEmailAddress(checkingEmails);
         }
     }
 }
