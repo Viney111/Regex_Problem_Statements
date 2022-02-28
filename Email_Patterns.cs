@@ -9,7 +9,7 @@ namespace Regex_Problem_Statements
 {
     internal class Email_Patterns
     {
-        public static string emailAddressUC1 = @"^[a-zA-Z]{3,}$";//UC1
+        public static string emailAddressUC1 = @"^[a-zA-Z]{3,}@bridgelabz$";//UC2
 
         public void ValidateEmailAddress(string email)
         {
