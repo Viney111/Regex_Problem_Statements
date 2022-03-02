@@ -9,7 +9,7 @@ namespace Regex_Problem_Statements
 {   
     internal class Email_Patterns
     {
-        public static string emailAddressUC1 = @"^[a-z]{3,}((([.|-|+|_]?)([a-zA-Z0-9]{1,}))?)@bridgelabz.co(.[a-z]{2})?$";//UC5
+        public static string emailAddressUC1 = "^[a-z]{3,}(([.|+]{1})?([-]{1})?[0-9]{1,})?@[a-z0-9]{1,}.[a-z]{3}(.[a-z]{2,4})?$";//UC6
 
         public void ValidateEmailAddress(string[] emails)
         {
